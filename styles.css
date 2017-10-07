@@ -14,11 +14,12 @@ body{
 	color: black;
 	text-align:center;
 	margin: 100px auto;
-	top: 400px;
+	top: 375px;
 	
 }
 .nav_bar{
 	position: fixed;
+	top: 0;
 	background-color: #f5f6f2;
 	height:8%;
 	font-size: 18px;
@@ -28,7 +29,7 @@ body{
 	border-bottom:  solid 1px #f3f5f0;	
 }
 
-ul{
+.nav_bar ul{
 	margin: 10px auto;
 	padding: 10px 20px;
 	font-weight:600;
@@ -98,7 +99,42 @@ button{
 	border-radius: 3px;
 }
 
-p a{
+.footer a{
 	text-decoration: none;
 	color: blue;
+}
+
+.baseline{
+	position: fixed;
+	bottom:0;
+	background-color: #f5f6f2;
+	height:8%;
+	font-size: 18px;
+	width:100%;
+	border-top:  solid 1px #f3f5f0;
+}
+
+.baseline li{
+	display: inline-block;
+	font-size: 10pt;
+	padding-bottom:50px;
+	width: auto;
+}
+
+.right{
+	float: right;
+	text-align:right;
+	display: inline;
+}
+
+.left{
+	float: left;
+	text-align:left;
+	display: inline;
+}
+
+.baseline ul{
+	margin: 10px auto;
+	padding: 10px 20px;
+	font-weight:600;
 }
